@@ -1,0 +1,5 @@
+Ahora: 
+Tablet
+
+Despues:
+- ver margenes inferiores imagenes about

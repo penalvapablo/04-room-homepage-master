@@ -1,0 +1,14 @@
+.about {
+  padding: 2.7rem 2rem;
+  &__title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
+  &__text {
+    font-size: 11.5px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(175, 173, 173);
+  }
+}

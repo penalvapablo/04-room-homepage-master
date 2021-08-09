@@ -1,0 +1,147 @@
+.header {
+  position: relative;
+  background-image: url(/images/mobile-image-hero-1.jpg);
+  background-size: cover;
+  height: 22.5rem;
+}
+.header__container {
+  padding-top: 3rem;
+  display: flex;
+}
+.header__burger {
+  position: absolute;
+  padding-left: 1.9rem;
+}
+.header__logo {
+  margin: 0 auto;
+}
+
+.nav {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: all ease 0.5s;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2.8rem 2rem;
+}
+.nav__links {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+.nav__lightbox {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.slider {
+  position: relative;
+  padding: 3.6rem 0 2.8rem;
+  height: 305px;
+}
+.slider__title {
+  font-size: 1.6rem;
+}
+.slider__text {
+  font-size: 11.5px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #afadad;
+}
+.slider__middle {
+  position: absolute;
+  right: 2rem;
+  left: 2rem;
+  transition: all 0.5s;
+}
+.slider__left {
+  position: absolute;
+  right: 2rem;
+  left: 2rem;
+  transform: translateX(-200%);
+  transition: all 0.5s;
+}
+.slider__right {
+  position: absolute;
+  right: 2rem;
+  left: 2rem;
+  transform: translateX(200%);
+  transition: all 0.5s;
+}
+.slider__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin: 2.8rem 0 1.6rem;
+  width: 70%;
+}
+.slider__cta p {
+  color: black;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.slider__cta__arrow {
+  height: 1rem;
+}
+.slider__arrows__container {
+  position: absolute;
+  right: 0;
+  background-color: black;
+  top: -3.5rem;
+}
+.slider__arrow {
+  height: 1rem;
+  width: 0.5rem;
+  padding: 1.1rem 1.4rem;
+}
+
+.about {
+  padding: 2.7rem 2rem;
+}
+.about__title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.about__text {
+  font-size: 11.5px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #afadad;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  margin: 0;
+}
+
+.hero2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,13 @@
+@use "./componentes/header";
+@use "./componentes/silder";
+@use "./componentes/about";
+
+body {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+.hero2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
